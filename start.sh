@@ -1,4 +1,5 @@
 # Install dependencies
 poetry install
 
-streamlit run app.py --server.port=8501
+# init app
+poetry run streamlit run app.py --server.port=8501

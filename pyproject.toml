@@ -3,18 +3,6 @@ name = "infuture"
 version = "0.1.0"
 description = "小智洞界未来"
 authors = ["sunzhiwen@lixiang.com"]
-license = "MIT"
-readme = "README.md"
-homepage = "https://github.com/yourusername/my_python_project"
-repository = "https://github.com/yourusername/my_python_project"
-documentation = "https://your-username.github.io/my_python_project/"
-keywords = ["example", "project"]
-classifiers = [
-    "Development Status :: 4 - Beta",
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent"
-]
 
 [tool.poetry.dependencies]
 python = "^3.10"  # Specify the Python version range
