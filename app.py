@@ -4,22 +4,22 @@ import streamlit as st
 def main():
     pages = {
         "导航": [
-            st.Page(r"pages/home.py", title="首页", icon=":material/home:"),
+            st.Page(r"pages/home.py", title="小智洞界未来", icon=":material/home:"),
         ],
-        "运营管理": [
-            st.Page(r"pages/store_management.py", title="店铺管理", icon=":material/empty_dashboard:"),
-            st.Page(r"pages/new_product_operations.py", title="新品运营", icon=":material/empty_dashboard:"),
+        "小智财经": [
+            st.Page(r"pages/store_management.py", title="乐福天地", icon=":material/empty_dashboard:"),
+            st.Page(r"pages/new_product_operations.py", title="金融属性", icon=":material/empty_dashboard:"),
         ],
-        "开发管理": [
-            st.Page(r"pages/product_management.py", title="产品管理", icon=":material/empty_dashboard:"),
-            st.Page(r"pages/new_products.py", title="新品开发", icon=":material/empty_dashboard:"),
+        "小智健康": [
+            st.Page(r"pages/product_management.py", title="饮食规律", icon=":material/empty_dashboard:"),
+            st.Page(r"pages/new_products.py", title="体育运动", icon=":material/empty_dashboard:"),
         ],
-        "数据管理": [
-            st.Page(r"pages/data_analysis.py", title="数据分析", icon=":material/monitoring:"),
-            st.Page(r"pages/data_form.py", title="表单管理", icon=":material/empty_dashboard:"),
+        "小智随笔": [
+            st.Page(r"pages/data_analysis.py", title="灵光一现", icon=":material/monitoring:"),
+            st.Page(r"pages/data_form.py", title="信息体系", icon=":material/empty_dashboard:"),
         ],
-        "系统管理": [
-            st.Page(r"pages/system_settings.py", title="系统设置", icon=":material/desktop_cloud:"),
+        "小智科技": [
+            st.Page(r"pages/system_settings.py", title="Ai工具箱", icon=":material/desktop_cloud:"),
         ]
     }
 
