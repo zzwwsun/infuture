@@ -3,6 +3,8 @@ name = "infuture"
 version = "0.1.0"
 description = "小智洞界未来"
 authors = ["sunzhiwen@lixiang.com"]
+# 包管理关闭模式
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.10"  # Specify the Python version range
