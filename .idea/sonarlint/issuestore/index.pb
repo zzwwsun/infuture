@@ -32,3 +32,5 @@ B
 pages/data_form.py,3/6/36c95e82adac337cb4058495ec6e52aedb9a8f72
 F
 .streamlit/config.toml,7/9/794225d7cec31df1471cf340fc1c16cafe4b25ed
+>
+pyproject.toml,5/d/5d07e7d72637aa0d59c89d381fe6dc4cf46e2491
